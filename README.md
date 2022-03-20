@@ -28,7 +28,7 @@ it performs a check as described above in helper.py.
 Then it proceeds to run the first data type validation and if no errors are raised, 
 validation of str type data comes after.
 
-Upon data is validation, the file is opened with csv module and the customers values are 
+Upon data validation, the file is opened with csv module and the customers values are 
 then stored in a set.
 
 Since it has a set with all the customers to search for, now is the point where the search
