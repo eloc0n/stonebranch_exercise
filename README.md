@@ -10,7 +10,7 @@ There are three .py files
 
 The core functionality resigns within here.
 
-### helper.py
+### helpers.py
 
 Here is checked the filename from user input.
 
