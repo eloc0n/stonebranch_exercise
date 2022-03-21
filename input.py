@@ -33,7 +33,11 @@ def find_invoices(file):
     invoice_codes = []
     types = [str, str, float, date]
     str_len = [30, 30]
-    validator.validate_data_type(invoice_file_input, types)
+    ''' 
+    it simply throws an error if data type in file input
+    isn't the same with types list
+    '''
+    # validator.validate_data_type(invoice_file_input, types)
     validator.validate_str_length(invoice_file_input, str_len)
     with open(invoice_file_input, 'r', newline='') as csv_file:
         csv_reader = csv.DictReader(csv_file, dialect='unix')
@@ -51,7 +55,11 @@ def find_invoices(file):
 def find_invoice_items(file):
     types = [str, str, float, int]
     str_len = [30, 30]
-    validator.validate_data_type(invoice_item_file_input, types)
+    ''' 
+    it simply throws an error if data type in file input 
+    isn't the same with types list
+    '''
+    # validator.validate_data_type(invoice_item_file_input, types)
     validator.validate_str_length(invoice_item_file_input, str_len)
     with open(invoice_item_file_input, 'r', newline='') as csv_file:
         csv_reader = csv.DictReader(csv_file, dialect='unix')
