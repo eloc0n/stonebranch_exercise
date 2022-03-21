@@ -44,3 +44,11 @@ related data, the writting process into new csv begins.
 ```
 python3 input.py
 ```
+# Input (uppercase)
+```
+CUSTOMER_SAMPLE
+```
+# or
+```
+CUSTOMER_SAMPLE.csv
+```
