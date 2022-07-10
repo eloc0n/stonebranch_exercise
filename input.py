@@ -31,7 +31,7 @@ def find_customers(file):
 
 def find_invoices(file):
     invoice_codes = []
-    types = [str, str, float, date]
+    # types = [str, str, float, date]
     str_len = [30, 30]
     ''' 
     it simply throws an error if data type in file input
